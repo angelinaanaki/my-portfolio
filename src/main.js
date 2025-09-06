@@ -8,7 +8,8 @@ import VueScrollTo from 'vue-scrollto'
 import VueRouter from 'vue-router'
 import VTooltip from 'v-tooltip'
 
-var VueCookie = require('vue-cookie');
+import VueCookie from 'vue-cookie'
+
 
 Vue.use(VTooltip)
 Vue.use(VueRouter)

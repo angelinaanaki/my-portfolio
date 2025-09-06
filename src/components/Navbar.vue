@@ -91,7 +91,7 @@
 </template>
 
 <script>
-import Logo from "./helpers/Logo";
+import Logo from "./helpers/Logo.vue";
 import info from "../../info";
 
 export default {

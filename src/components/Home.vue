@@ -59,7 +59,7 @@
 <script>
 import info from "../../info";
 
-import Wave from "./helpers/Wave";
+import Wave from "./helpers/Wave.vue";
 
 export default {
   name: "Home",

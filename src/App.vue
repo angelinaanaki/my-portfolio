@@ -14,12 +14,12 @@
 
 <script>
 import Navbar from "./components/Navbar.vue";
-import Home from "./components/Home";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Home from "./components/Home.vue";
+import About from "./components/About.vue";
+import Skills from "./components/Skills.vue";
+import Portfolio from "./components/Portfolio.vue";
+import Contact from "./components/Contact.vue";
+import Footer from "./components/Footer.vue";
 
 import info from "../info";
 

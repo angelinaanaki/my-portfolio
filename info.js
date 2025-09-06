@@ -1,7 +1,9 @@
+import meImg from './src/assets/me.png';
+
 let info = {
   name: "Angelina Anaki",
   logo_name: "AA",
-  flat_picture: require("./src/assets/me.png"),
+  flat_picture: meImg,
   config: {
     use_cookies: true,
     navbar: {
