@@ -1,4 +1,7 @@
 import meImg from './src/assets/me.png';
+import portfolioImg1 from './src/assets/portfolio/1.png';
+import portfolioImg2 from './src/assets/portfolio/2.png';
+
 
 let info = {
   name: "Angelina Anaki",
@@ -11,9 +14,9 @@ let info = {
     }
   },
   description:
-    "I am a software developer having 5+ years of intensive experience in Odoo, Odoo customization, implementation, integration, migration, Odoo technical & functional consultation, Odoo support & ongoing maintenance.",
+    "I am a software engineer having 7+ years of intensive experience in Odoo, Odoo customization, implementation, integration, migration, Odoo technical & functional consultation, Odoo support & ongoing maintenance.",
   links: {
-    linkedin: "https://linkedin.com/in/angelina-anakievska-08197614a",
+    linkedin: "https://linkedin.com/in/angelina-anakievska-stojmirova-08197614a",
     github: "https://github.com/angelinaanaki",
     resume: "https://drive.google.com/file/d/1W0pzOo1Gb-W70BYKehOfZ4qaJt7m1_7O/view?usp=sharing",
   },
@@ -86,10 +89,39 @@ let info = {
   ],
   portfolio: [
     {
-      name: "Diary App",
+      name: "Keyboard PD Detection",
+      pictures: [
+        {
+          img: portfolioImg1,
+        },
+      ],
+      technologies: ["Python", "Scikit-learn"],
+      category: "Machine Learning",
+      date: "June, 2017 - October, 2017",
+      github: "",
+      visit: "",
+      description:"This project explores how everyday interaction with a computer keyboard can help detect early signs of Parkinson’s disease (PD). By measuring the time a key is held down (key hold duration) during normal typing and converting it into a PD motor index using regression algorithms, the system distinguishes between healthy individuals and those with early PD symptoms. The approach offers a non-invasive, low-cost way to support early diagnosis and monitoring, achieving 57% accuracy in tests with 43 participants."
+    },
+    {
+      name: "recipeapp.com",
+      pictures: [
+        {
+          img: portfolioImg2,
+        },
+      ],
+      technologies: ["Django", "React JS"],
+      category: "Web App",
+      date: "September, 2019 - November, 2019",
+      github:
+        "https://github.com/angelinaanaki/recipeapp",
+      visit: "",
+      description:"The application is designed for simple browsing, adding, and editing recipes. Users can view the latest recipes, search by title or ingredients, and use filters and categories (by difficulty, preparation time, type of meal, etc.). Registered users can add and manage their own recipes, leave comments, give ratings, and save favorites. The system supports Facebook login, profile settings, newsletter notifications, and recipe sharing. The administrator manages content, approves recipes, and moderates comments."
+    },
+    {
+      name: "Msc App",
       // pictures: [
       //   {
-      //     img: require("./src/assets/portfolio/1.png")
+      //     img: require("./src/assets/portfolio/3.png")
       //   },
       // ],
       technologies: ["react", "scss", "local storage"],
@@ -98,37 +130,8 @@ let info = {
       github:
         "",
       visit: "",
-      description:""
-    },
-    {
-      name: "Online Examination",
-      // pictures: [
-      //   {
-      //     img: require("./src/assets/portfolio/1.png")
-      //   },
-      // ],
-      technologies: ["HTML", "CSS","JavaSript","JQuery", "PHP", "MySQL"],
-      category: "Web App",
-      date: "Apr, 2021 - May, 2021",
-      github: "",
-      visit: "",
-      description:""
-    },
-    {
-      name: "MyFlix.com",
-      // pictures: [
-      //   {
-      //     img: require("./src/assets/portfolio/1.png")
-      //   },
-      // ],
-      technologies: ["react", "css", "TMDB"],
-      category: "Web App",
-      date: "Aug, 2021 - 10 days",
-      github:
-        "",
-      visit: "",
-      description:""
-    },
+      description:"Test"
+    }
   ],
 };
 
